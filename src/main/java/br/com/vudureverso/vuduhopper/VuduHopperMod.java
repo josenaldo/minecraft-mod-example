@@ -12,7 +12,7 @@ import net.minecraft.util.registry.Registry;
 
 public class VuduHopperMod implements ModInitializer {
 
-	public static final Block VUDU_HOPPER_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).hardness(4.0f));
+	public static final Block VUDU_HOPPER_BLOCK = new VuduHopperBlock(FabricBlockSettings.of(Material.METAL).hardness(1.0f));
 
 	@Override
 	public void onInitialize() {

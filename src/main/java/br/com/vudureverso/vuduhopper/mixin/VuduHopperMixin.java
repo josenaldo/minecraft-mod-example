@@ -11,7 +11,6 @@ public class VuduHopperMixin {
 
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		System.out.println("*******************************");
-		System.out.println("Inicializando mixin Vudu Hopper");
+		System.out.println("**** Inicializando mixin vudu hopper ****");
 	}
 }
