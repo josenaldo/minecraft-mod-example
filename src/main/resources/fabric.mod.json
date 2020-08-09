@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "vuduhopper",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Vudu Hopper",
+  "description": "Vudu Hopper is a hopper that pull items from player inventory",
   "authors": [
-    "Me!"
+    "@vudureverso"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/josenaldo",
+    "sources": "https://github.com/josenaldo/minecraft-mod-example"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/vuduhopper/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "br.com.vudureverso.vuduhopper.VuduHopperMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "vuduhopper.mixins.json"
   ],
 
   "depends": {
